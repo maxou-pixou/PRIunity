@@ -721,7 +721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.693
+      value: -0.605
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -780,7 +780,7 @@ MonoBehaviour:
   StreamingClient: {fileID: 1717834283}
   RigidBodyId: 4
   NetworkCompensation: 1
-  positionOffset: {x: 0, y: -0.19, z: 0}
+  positionOffset: {x: 0, y: -0.185, z: 0}
   rotationOffset: {x: -90, y: 0, z: 0}
 --- !u!65 &301806935
 BoxCollider:

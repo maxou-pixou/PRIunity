@@ -18,6 +18,7 @@ MonoBehaviour:
   - {fileID: -3876892198064108579}
   - {fileID: -312904236316109870}
   - {fileID: -1530105876669367742}
+  - {fileID: -1565989295037602597}
   - {fileID: 6358344071943686719}
   - {fileID: 6949332421131873479}
   - {fileID: -4007961870350586665}
@@ -216,6 +217,29 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &-2343225434239747938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c465bd23c9c4fb442ae89117552a5f3f, type: 3}
+  m_Name: HandTrackingFeature Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Ultraleap Hand Tracking
+  version: 1.0.0
+  featureIdInternal: com.ultraleap.tracking.openxr.feature.handtracking
+  openxrExtensionStrings: XR_EXT_hand_tracking XR_ULTRALEAP_hand_tracking_forearm
+    XR_ULTRALEAP_hand_tracking_hints
+  company: Ultraleap
+  priority: 0
+  required: 0
+  metaPermissions: 1
+  metaHighFrequency: 1
 --- !u!114 &-2028342589241020762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -234,7 +258,7 @@ MonoBehaviour:
   - {fileID: -2648883165486545997}
   - {fileID: -1334566834032515921}
   - {fileID: -5447625833586782067}
-  - {fileID: -7359527602669194236}
+  - {fileID: -2343225434239747938}
   - {fileID: -4862493971907724557}
   - {fileID: 7267921021655995875}
   - {fileID: 6762984103222847817}
@@ -268,6 +292,29 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &-1565989295037602597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c465bd23c9c4fb442ae89117552a5f3f, type: 3}
+  m_Name: HandTrackingFeature Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Ultraleap Hand Tracking
+  version: 1.0.0
+  featureIdInternal: com.ultraleap.tracking.openxr.feature.handtracking
+  openxrExtensionStrings: XR_EXT_hand_tracking XR_ULTRALEAP_hand_tracking_forearm
+    XR_ULTRALEAP_hand_tracking_hints
+  company: Ultraleap
+  priority: 0
+  required: 0
+  metaPermissions: 1
+  metaHighFrequency: 1
 --- !u!114 &-1530105876669367742
 MonoBehaviour:
   m_ObjectHideFlags: 0
